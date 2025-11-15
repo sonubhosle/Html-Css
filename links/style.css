@@ -1,0 +1,21 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-us{
+    background-color: burlywood;
+    margin: 40px;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    margin: 20px 50px;
+    padding:10px 30px
+}
