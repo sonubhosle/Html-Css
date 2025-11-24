@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.links{
+    display: flex;
+    gap: 30px;
+    background-color: aqua;
+    height: 50px;
+     align-items:center;
+     justify-content:space-around ;
+}
+.links .link{
+   display: flex;
+    gap: 30px;
+    align-items: center;
+}
