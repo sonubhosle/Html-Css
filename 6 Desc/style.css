@@ -1,0 +1,27 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+  html,body{
+    padding: 40px;
+    background-color: rgb(220, 220, 220);
+  }
+h1{
+    color: blueviolet;
+    font-size: 22px;
+}
+
+li{
+    background-color: blueviolet;
+    color: white;
+    margin: 10px 0px;
+    padding: 5px 20px;
+    transition: 0.5s ease-in-out;
+}
+
+li:hover{
+    background-color: teal;
+    cursor: pointer;
+    margin: 15px 10px;
+}
+
