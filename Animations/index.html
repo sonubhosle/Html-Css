@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        width: 200px;
+        height: 50px;
+        background-color: teal;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 25px;
+        animation: offer 4s infinite;
+    }
+
+    @keyframes offer{
+        0%{
+            background-color: blueviolet;
+            margin-left: 100px;
+        }
+        25%{
+            background-color: blanchedalmond;
+              margin-left: 0px;
+        }
+        50%{
+            background-color: brown;
+              margin-left: 100px;
+              transform:scale(1.4);
+        }
+        75%{
+            background-color: chocolate;
+              margin-left: 0px;
+        }
+        100%{
+            background-color: tomato;
+              margin-left: 100px;
+        }
+    }
+
+    img{
+        filter:grayscale();
+    }
+       img:hover{
+        filter:none;
+    }
+</style>
+<body>
+    <button>50% OFF</button> 
+
+</body>
+</html>
